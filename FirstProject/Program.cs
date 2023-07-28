@@ -2,7 +2,7 @@
 {
     class Program
     {
-        static void Main()
+        public static void Main(String[] aruments)
         {
             System.Console.WriteLine("Hello World");
         }
