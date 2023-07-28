@@ -4,20 +4,10 @@
     {
         public static void Main(String[] arguments)
         {
-            bool complete = false;
-            bool started = true;
-
-            if(complete)
-            {
-                int x = 5;
-            }
-            else if(started)
-            {
-                int x = 4;
-            }
-            else
-            {
-                int x = 2;
+            List<string> collection = new List<string>() {"a", "b", "c" };
+            for (int idx = 0; idx < collection.Count; idx++)
+                {
+                Console.WriteLine(collection[idx]);
             }
         }
     }
