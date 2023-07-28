@@ -4,12 +4,12 @@
     {
         public static void Main(String[] arguments)
         {
-            PrintGreeting();
+            PrintMessage("Hello and welcome");
         }
 
-        static void PrintGreeting()
+        static void PrintMessage(string message)
         {
-            Console.WriteLine("Hello there!");
+            Console.WriteLine(message);
         }
     }
 }
