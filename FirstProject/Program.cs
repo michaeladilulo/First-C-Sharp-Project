@@ -4,10 +4,12 @@
     {
         public static void Main(String[] arguments)
         {
-            List<string> collection = new List<string>() {"a", "b", "c" };
-            for (int idx = 0; idx < collection.Count; idx++)
-                {
-                Console.WriteLine(collection[idx]);
+            int idx = 3;
+
+            while(idx > 0)
+            {
+                Console.WriteLine("Loading");
+                idx--;
             }
         }
     }
