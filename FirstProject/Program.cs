@@ -1,11 +1,10 @@
-﻿using System;
-
-namespace FirstProject;
-
-class Program
+﻿namespace FirstProject
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("This is my first console app!");
+        static void Main()
+        {
+            System.Console.WriteLine("Hello World");
+        }
     }
 }
